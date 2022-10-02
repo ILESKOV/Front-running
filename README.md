@@ -16,6 +16,9 @@
 [Ethereum Smart Contract Best Practices FrontRunning](https://consensys.github.io/smart-contract-best-practices/attacks/frontrunning/)
 
 
+[Batch Auctions](https://www.bitdegree.org/crypto/learn/crypto-terms/what-are-batch-auctions)
+
+
 
 
 ### Front Running Prevention: Commit - Reveal
