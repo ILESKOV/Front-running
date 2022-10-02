@@ -14,11 +14,14 @@
 
 
 - [Batch Auctions](https://www.bitdegree.org/crypto/learn/crypto-terms/what-are-batch-auctions)
+
 ● Individual orders are grouped together into a batch and executed at the same time.
+
 ● The same clearing price is assigned to all orders within one batch.
 
 
 - [Ethereum Smart Contract Best Practices FrontRunning](https://consensys.github.io/smart-contract-best-practices/attacks/frontrunning/)
+
 ● Front Running Prevention: Commit - Reveal
  The best remediation is to remove the benefit of front-running in your application, mainly by removing the importance of transaction ordering or time.
 Commit - Reveal:
