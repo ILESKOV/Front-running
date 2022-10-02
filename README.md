@@ -40,3 +40,4 @@ Commit - Reveal:
 ○ Contract checks that the commitment == keccak256(encoded action, msg.sender)
 
 
+
