@@ -11,3 +11,13 @@
 
 
 [Flash Boys 2.0](https://arxiv.org/pdf/1904.05234.pdf)
+
+###Front Running Prevention: Commit - Reveal
+ The best remediation is to remove the benefit of front-running in your application, mainly by removing the importance of transaction ordering or time.
+Commit - Reveal:
+1. Indicate intent to do some action (claim a bounty, propose a purchase or sale), submit a commitment:
+○ Submit: keccak256(encoded action, msg.sender)
+○ Contract stores the commitment (message digest)
+2. To execute the action, reveal the proposed action:
+○ Submit: encoded action
+○ Contract checks that the commitment == keccak256(encoded action, msg.sender)
