@@ -33,6 +33,7 @@ Commit - Reveal:
 
 ○ Contract stores the commitment (message digest)
 
+
 2. To execute the action, reveal the proposed action:
 
 ○ Submit: encoded action
