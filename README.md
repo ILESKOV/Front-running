@@ -19,6 +19,9 @@
 
 - The same clearing price is assigned to all orders within one batch.
 
+● [ethers-provider-flashbots-bundle](https://www.npmjs.com/package/@flashbots/ethers-provider-bundle)
+This repository contains the FlashbotsBundleProvider ethers.js provider, an additional Provider to ethers.js to enable high-level access to eth_sendBundle and eth_callBundle rpc endpoint on mev-relay.
+
 
 ● [Ethereum Smart Contract Best Practices FrontRunning](https://consensys.github.io/smart-contract-best-practices/attacks/frontrunning/)
 
